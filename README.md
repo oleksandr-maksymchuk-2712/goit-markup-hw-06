@@ -1,3 +1,3 @@
-# goit-markup-hw-05
+# goit-markup-hw-06
 
-Home Work №5 (CSS)
+Home Work №6 (CSS)
