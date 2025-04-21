@@ -35,7 +35,7 @@
           </ul>
         </nav>
         <address class="address">
-          <ul class="header-list">
+          <ul class="address-list">
             <li>
               <a class="my-info" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -48,10 +48,15 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <!-- Основний контент -->
-    <main>
+    <main class="hidden">
       <section class="section-one">
         <div class="container">
           <h1 class="title">Effective Solutions for Your Business</h1>
@@ -421,7 +426,7 @@
       </section>
     </main>
     <!-- Підвал сайту -->
-    <footer class="footer">
+    <footer class="footer hidden">
       <div class="footer-container">
         <div class="logo-block">
           <a class="logo-bottom" href="./index.html"
@@ -493,7 +498,7 @@
       </div>
     </footer>
     <!-- ~Modal~! -->
-    <div class="modal-overlay is-open">
+    <div class="modal-overlay is-open hidden">
       <div class="modal">
         <button type="button" class="svg-modal-x">
           <svg width="8" height="8" class="svg-x">
